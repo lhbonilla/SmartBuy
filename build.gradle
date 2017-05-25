@@ -61,4 +61,5 @@ assets {
 }
 
 task stage(dependsOn: ['build', 'clean'])
-
+gradle -Dskip.tests
+build.mustRunAfter clean

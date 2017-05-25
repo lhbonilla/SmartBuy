@@ -6,7 +6,8 @@ class Product {
     String code
     Integer country
     String description
-    
+    String category
+
 
 
     static constraints = {
